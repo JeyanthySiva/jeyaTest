@@ -1,0 +1,6 @@
+com\healthreconconnect\pageObjects\LoginPage.class
+com\healthreconconnect\utilities\ReadConfig.class
+com\healthreconconnect\pageObjects\NewUserPage.class
+com\healthreconconnect\testCases\BaseClass.class
+com\healthreconconnect\testCases\TC_NewUserTest_001.class
+com\healthreconconnect\testCases\TC_LoginTest_001.class
