@@ -20,3 +20,11 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     goals: 'install'
+
+schedules:
+- cron: "0 0 * * *"
+  always: true
+  displayName: Daily midnight build
+  branches:
+    include:
+    - main
