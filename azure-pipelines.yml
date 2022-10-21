@@ -23,6 +23,7 @@ steps:
 
 schedules:
 - cron: "0 0 * * *"
+  always: true
   displayName: Daily midnight build
   branches:
     include:
