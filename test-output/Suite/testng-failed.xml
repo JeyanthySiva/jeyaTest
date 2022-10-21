@@ -5,12 +5,20 @@
     <classes>
       <class name="com.healthreconconnect.testCases.TC_NewUserTest_001">
         <methods>
-          <include name="NewUserTest"/>
           <include name="appLogin"/>
+          <include name="NewUserTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.healthreconconnect.testCases.TC_NewUserTest_001 -->
+      <class name="com.healthreconconnect.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginTest"/>
+          <include name="LoginInvalidCredentials"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.healthreconconnect.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
