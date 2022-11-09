@@ -22,9 +22,9 @@ steps:
     goals: 'install'
 
 schedules:
-- cron: "0 0 * * *"
+- cron: "30 18 * * *"
   always: true
-  displayName: Daily midnight build
+  displayName: Daily midnight build in Srilankan timezone
   branches:
     include:
     - main
